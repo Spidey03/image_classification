@@ -22,3 +22,16 @@ It consists of several layers, primarily involving Convolutional, Pooling layers
 
 ### Normalization Layers
 - Apply normalization techniques like Batch Normalization to stabilize & accelerate training.
+
+### Classifier:
+#### Flatten
+The feature maps are flattened into a single vector of size 64.
+
+#### FC-4
+    The first fully connected (dense) layer with 512 neurons.
+
+#### FC-5
+    The second fully connected (dense) layer with 10 neurons.
+
+#### SoftMax
+    The final layer applies the SoftMax activation function to produce class probabilities.
