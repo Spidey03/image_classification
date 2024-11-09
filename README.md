@@ -1,9 +1,9 @@
 # Image Classification
 
-![alt text](image.png)
+![Classification](images/classification.png)
 
 ## Model Structure
-![alt text](image-1.png)
+![Model Structure](images/classification.png)
 The model architecture is divided into Feature Extractor and Classifier.
 
 ### Input Image
